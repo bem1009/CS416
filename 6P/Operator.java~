@@ -1,0 +1,33 @@
+
+
+/**
+ * Created by Benjamin Miller on 4/4/2016.
+ */
+
+public class Operator extends TreeNode
+    {
+        private String operator;
+        public TreeNode left;
+        public TreeNode right;
+
+        public Operator( String operate )
+        {
+            operator = operate;
+        }
+
+        public float evaluate()
+        {
+            if( operator.equals( "+" ) )
+            {
+                return 0.0f;
+            }
+               
+            return 0.0f;
+         }
+        public String printable()
+        {
+
+            return "<" + operator + ">";
+        }
+    }
+

@@ -1,0 +1,27 @@
+
+
+/**
+ * Created by Benjamin Miller on 3/28/2016.
+ */
+public class Number extends Operand
+{
+    private Float token;
+    public Number( Float f )
+    {
+        token = f;
+        
+    
+
+    }
+    public Float getToken()
+    {
+        return token;
+    }
+    public String printable()
+    {
+        int tokenint =  Math.round( token );
+        String returnstring = "@" +  tokenint;
+
+        return returnstring;
+    }
+}

@@ -1,0 +1,26 @@
+
+/**
+ * Created by Benjamin Miller on 3/28/2016.
+ */
+
+public class Variable extends Operand
+{
+    private String varstring;
+    public Variable( String var )
+    {
+        
+        varstring = var; 
+
+    }
+    public String printable()
+    {
+        return "@" + varstring;
+    }
+     
+    public static void main( String[] args )
+    {
+        
+       
+    }
+
+}

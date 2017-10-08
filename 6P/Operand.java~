@@ -1,0 +1,19 @@
+
+/**
+ * Created by Benjamin Miller on 3/28/2016.
+ */
+
+public class Operand extends TreeNode
+{
+
+    public Operand()
+    {
+
+    }
+
+    public String printable()
+    {
+        return null;
+    }
+
+}

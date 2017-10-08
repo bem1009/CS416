@@ -1,0 +1,21 @@
+
+
+/**
+ * Created by Benjamin Miller on 3/28/2016.
+ */
+
+public class Operator extends EToken
+{
+    private String operator;
+    
+    public Operator( String operate )
+    {
+      operator = operate;
+    }
+
+    public String printable()
+    {
+
+        return "<" + operator + ">";
+    }
+}

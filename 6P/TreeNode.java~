@@ -1,0 +1,27 @@
+
+    /**
+     * Etoken makes an TreeNode.
+     */
+    public abstract class TreeNode
+    {
+        /**
+         * Non-standard toString
+         * @return printable.
+         */
+        abstract public String printable();
+        /**
+         * Makes a string version of the TreeNode.
+         * @return toString
+         */
+        public String toString()
+        {
+            return printable();
+        }
+        public float evaluate()
+        {
+            
+            return 0.0f;
+        }
+        
+
+}

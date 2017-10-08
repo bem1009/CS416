@@ -1,0 +1,28 @@
+
+/**
+ * Created by Benjamin Miller on 4/4/2016.
+ */
+public class Variable extends Operand
+{
+        private String varstring;
+        public Variable( String var )
+        {
+            varstring = var;
+            SymbolTable.instance();
+            
+        }
+        public String printable()
+        {
+            return "@" + varstring;
+        }
+        public static float evaluate()
+        {
+            Float f = SymbolTable.getValue( varstring );
+        }
+        public static void main( String[] args )
+        {
+
+        }
+
+}
+
